@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cuboNortwind\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF483C9-C1AD-4A7B-99E9-CACF7752B539}|cuboNortwind\\cuboNortwind.dwproj|D:\\cuboNortwind\\cuboNortwind\\Etl Nortwind.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{2DF483C9-C1AD-4A7B-99E9-CACF7752B539}|cuboNortwind\\cuboNortwind.dwproj|solutionrelative:cuboNortwind\\Etl Nortwind.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF483C9-C1AD-4A7B-99E9-CACF7752B539}|cuboNortwind\\cuboNortwind.dwproj|D:\\cuboNortwind\\cuboNortwind\\Dim Pedidos.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{2DF483C9-C1AD-4A7B-99E9-CACF7752B539}|cuboNortwind\\cuboNortwind.dwproj|solutionrelative:cuboNortwind\\Dim Pedidos.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF483C9-C1AD-4A7B-99E9-CACF7752B539}|cuboNortwind\\cuboNortwind.dwproj|D:\\cuboNortwind\\cuboNortwind\\Etl Nortwind.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{2DF483C9-C1AD-4A7B-99E9-CACF7752B539}|cuboNortwind\\cuboNortwind.dwproj|solutionrelative:cuboNortwind\\Etl Nortwind.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Pedidos.dim [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\cuboNortwind\\cuboNortwind\\Dim Pedidos.dim",
+              "RelativeDocumentMoniker": "cuboNortwind\\Dim Pedidos.dim",
+              "ToolTip": "D:\\cuboNortwind\\cuboNortwind\\Dim Pedidos.dim [Dise\u00F1o]",
+              "RelativeToolTip": "cuboNortwind\\Dim Pedidos.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-04T02:22:48.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Etl Nortwind.cube [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\cuboNortwind\\cuboNortwind\\Etl Nortwind.cube",
+              "RelativeDocumentMoniker": "cuboNortwind\\Etl Nortwind.cube",
+              "ToolTip": "D:\\cuboNortwind\\cuboNortwind\\Etl Nortwind.cube [Dise\u00F1o]",
+              "RelativeToolTip": "cuboNortwind\\Etl Nortwind.cube [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-04T02:22:43.452Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Etl Nortwind.dsv [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\cuboNortwind\\cuboNortwind\\Etl Nortwind.dsv",
+              "RelativeDocumentMoniker": "cuboNortwind\\Etl Nortwind.dsv",
+              "ToolTip": "D:\\cuboNortwind\\cuboNortwind\\Etl Nortwind.dsv [Dise\u00F1o]",
+              "RelativeToolTip": "cuboNortwind\\Etl Nortwind.dsv [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-04T02:22:20.307Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

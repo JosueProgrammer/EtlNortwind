@@ -1,0 +1,200 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="87f9bf37-0cc1-439a-8b31-682d0e724ab8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Pedidos</ID>
+  <Name>Dim Pedidos</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2144" scrolltop="-4762" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7329" y="13097" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimPedidos" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimPedidos" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2144</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4762</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1eb95a04-8ee8-4308-b8a2-c34a1737b9b7">
+    <DataSourceViewID>Etl Nortwind</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="36c125ff-3321-4a54-bafa-084f245f8e32">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="43a8f0eb-cd5b-4690-b94a-37fdf3799a00">
+      <ID>Order ID</ID>
+      <Name>Order ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9b77910a-accf-4dd2-ab1b-711a4165c3ad">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f18d3325-5a83-4323-a17e-4e1170942726">
+            <TableID>dbo_DimPedidos</TableID>
+            <ColumnID>OrderID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ae73ad3a-dfff-4676-a30b-804ecbe56930">
+          <AttributeID>ID Empleado</AttributeID>
+          <Name>ID Empleado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="09cc68e1-5a0a-4f57-8dd4-96d068bcd831">
+          <AttributeID>ID Cliente</AttributeID>
+          <Name>ID Cliente</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2aec1354-d4c1-436b-88e8-2b0c3029e410">
+          <AttributeID>Fecha Pedido</AttributeID>
+          <Name>Fecha Pedido</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2ea7be6d-40ca-4ca3-95b3-f4ecb12ced8e">
+          <AttributeID>Fecha Envío</AttributeID>
+          <Name>Fecha Envío</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d14690f6-e0eb-415b-9293-68eac199ac2b">
+          <AttributeID>Flete</AttributeID>
+          <Name>Flete</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6bec3409-ce93-4491-a834-7aea9d3de489">
+      <ID>ID Empleado</ID>
+      <Name>ID Empleado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4aa7822d-c866-452f-9164-fa30aae23425">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="897abcc0-c3f0-4885-86de-02941dba9f95">
+            <TableID>dbo_DimPedidos</TableID>
+            <ColumnID>IDEmpleado</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="089600fa-d015-4771-9ab7-1bb19f8bca6b">
+      <ID>ID Cliente</ID>
+      <Name>ID Cliente</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f5db69cc-b972-40fd-9e29-47702eb80c7e">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ea07104c-a184-4b58-9981-7bac70473ff9">
+            <TableID>dbo_DimPedidos</TableID>
+            <ColumnID>IDCliente</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b0cdff35-29fe-4240-b032-01c77f2d5f69">
+      <ID>Fecha Pedido</ID>
+      <Name>Fecha Pedido</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="12708754-7ca6-49e0-9239-fff79bde143f">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d0ab33ee-a6ab-4dd5-a7b6-57428dbb7dc8">
+            <TableID>dbo_DimPedidos</TableID>
+            <ColumnID>FechaPedido</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="78660f88-6436-42bb-9a81-262413f15718">
+      <ID>Fecha Envío</ID>
+      <Name>Fecha Envío</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6d0d4976-4ebe-4d00-915c-e45e6132df08">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb99e0b3-c2e9-435d-bbaa-5c9a259492e7">
+            <TableID>dbo_DimPedidos</TableID>
+            <ColumnID>FechaEnvío</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="94794c1b-77aa-477c-9108-0cbf0c193439">
+      <ID>Flete</ID>
+      <Name>Flete</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="965496a1-83e0-40f5-b8a5-e27952670096">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b5d030a4-b650-4c5d-b09d-03469c529ff1">
+            <TableID>dbo_DimPedidos</TableID>
+            <ColumnID>Flete</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
